@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.component.css">
+</head>
+
+<body>
+    <mat-sidenav-container class="sidenav-container">
+        <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+            <mat-toolbar>Menu</mat-toolbar>
+            <mat-nav-list>
+                <nav>
+
+                    <a mat-list-item routerLink="" class="brand-logo right">Home <mat-icon matBadge="" matBadgeColor="warn">home</mat-icon></a>
+
+                    <a mat-list-item routerLink="/pessoas"> Pessoas <mat-icon matBadge="" matBadgeColor="warn"> perm_identity</mat-icon></a>
+                    <a mat-list-item routerLink="/equipes"> Equipes <mat-icon matBadge="" matBadgeColor="warn">supervised_user_circle</mat-icon> </a>
+                    <a mat-list-item routerLink="/projetos"> Projetos <mat-icon matBadge="" matBadgeColor="warn"> assignment</mat-icon></a>
+                    <a mat-list-item routerLink="/task"> Task  <mat-icon matBadge="" matBadgeColor="warn">task</mat-icon></a>
+                </nav>
+            </mat-nav-list>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <ng-component></ng-component>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <mat-grid-list cols="1" rowHeight="350px">
+
+            <mat-card class="dashboard-card ">
+                <h1 class="cabec">
+                    <mat-icon>description</mat-icon>Descrição do Projeto</h1>
+                <mat-card-content class="dashboard-card-content ">
+                    <div> Bem Vindo a segunda fase do desafio! Sistema que mantém projetos. Cada projeto recebe uma equipe, e cada equipe pode receber um número não delimitado de pessoas. Cada projeto tem tasks, cada task pode ser atribuída a uma determinada
+                        pessoa que está na equipe do projeto.</div>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-list>
+    </div>
+    <div class="performancegeral">
+        <div class="performance">
+            <mat-grid-list cols="2" rowHeight="300px">
+                <mat-grid-tile>
+                    <mat-card class="dashboard-card ">
+                        <mat-card-title>
+                            <h1>Performance das Equipes</h1>
+                        </mat-card-title>
+                        <div class="equip">
+                            <div>
+                                <mat-icon class="crescente">trending_up</mat-icon>
+                                <p class="por">80%</p>
+                                <h2>Equipe sla</h2>
+                                <p class="descric">Teve uma porcentagem de <br> sla de task concluidas no total</p>
+                            </div>
+                            <div>
+                                <mat-icon class="decrescente">trending_down</mat-icon>
+                                <p class="por">80%</p>
+                                <h2>Equipe sla</h2>
+                                <p class="descric">Teve uma porcentagem de <br> sla de task concluidas no total</p>
+                            </div>
+                        </div>
+                    </mat-card>
+                </mat-grid-tile>
+            </mat-grid-list>
+
+        </div>
+
+        <div class="performancedois">
+            <mat-grid-list cols="1" rowHeight="200px">
+                <mat-card class=" sugestaog">
+                    <mat-expansion-panel hideToggle>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Task's em progresso
+                            </mat-panel-title>
+                            <mat-panel-description>
+                                Equipe responsável
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <p>This is the primary content of the panel</p>
+                        <p>This is the primary content of the panel.</p>
+                        <p>This is the primary content of the panel.</p>
+                        <p>This is the primary content of the panel.</p>
+                        <p>This is the primary content of the panel.</p>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Projetos atuais
+                            </mat-panel-title>
+                            <mat-panel-description>
+                                Currently I am {{panelOpenState ? 'open' : 'closed'}}
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <p>I'm visible because I am open</p>
+                        <p>I'm visible because I am open</p>
+                        <p>I'm visible because I am open</p>
+                        <p>I'm visible because I am open</p>
+                    </mat-expansion-panel>
+
+                </mat-card>
+
+            </mat-grid-list>
+        </div>
+    </div>
+
+</body>
+
+</html>

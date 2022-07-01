@@ -1,0 +1,141 @@
+/*configura de cabeçalho*/
+
+body {
+    background-color: #05020D;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    margin-inline-end: 5rem;
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+
+/*configuração da navegação na tabela input*/
+
+.dois {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lucas {
+    color: white;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.btnAdd button {
+    background-color: rgba(193, 31, 216, 0.5);
+    color: white;
+    border-radius: 8px;
+}
+
+#btnBusca {
+    border: none;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+}
+
+#divBusca input {
+    width: 200px;
+    background-color: #fff;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 4px;
+}
+
+#divBusca button {
+    height: 34px;
+    border-radius: 7px;
+    background-color: rgba(193, 31, 216, 0.5);
+}
+
+.btnAdd button {
+    border: none;
+    width: 120px;
+    height: 34px;
+    border-radius: 7px 7px;
+    font-weight: bold;
+}
+
+
+/*configuração das divs finais*/
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.limitador {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.TaskCon {
+    width: 25%;
+    color: white;
+    border: 1px solid #C11FD8;
+}
+
+.quadradoY {
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFF00;
+}
+
+.yellow {
+    color: #FFFF00;
+    display: flex;
+    justify-content: center;
+}
+
+.quadradoB {
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: #01FFAC;
+}
+
+.quadradoR {
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: #ED303C;
+}
+
+.task {
+    width: 90%;
+}
+
+.back {
+    background: linear-gradient(0deg, #100922, #100922), linear-gradient(0deg, #C11FD8, #C11FD8);
+}
+
+.borde {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #661870;
+    border: 1px solid #C11FD8;
+}

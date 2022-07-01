@@ -1,0 +1,124 @@
+.grid-container {
+    margin: 20px;
+}
+
+.mat-expansion-pane {
+    border: 1px solid #006465;
+    background-color: #100922;
+}
+
+.dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    background-color: #100922;
+}
+
+.dashboard-card h1 {
+    color: #FFf;
+}
+
+.sugestaog {
+    width: 80%;
+}
+
+.dashboard-card-content {
+    width: 80%;
+    height: 10%;
+    color: #414258;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.cabec h1 {
+    color: #FFfF00;
+}
+
+.crescente {
+    color: chartreuse;
+    margin-left: 42%;
+    margin-top: 6%;
+}
+
+.decrescente {
+    color: brown;
+    margin-left: 42%;
+    margin-top: 6%;
+}
+
+.equip {
+    display: flex;
+    justify-content: space-around;
+}
+
+.por {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: aliceblue
+}
+
+.dashboard-card .descric {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-style: normal;
+}
+
+.performancegeral {
+    height: 50%;
+}
+
+.performance h2 {
+    color: #FFfF00;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-card-content {
+    text-align: center;
+}
+
+.performance h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: 5px solid rgba(0, 153, 255, 0.50);
+}
+
+.performance {
+    margin-left: 1%;
+}
+
+.performancedois {
+    margin-left: 55%;
+    width: 40%;
+    margin-top: -20%;
+}
+
+body {
+    background-color: #05020D;
+    overflow-x: hidden;
+}
+
+.pessoas {
+    width: 65%;
+    color: #fff;
+    display: flex;
+    border: 1px solid #006465;
+    border-radius: 500rem;
+    border-style: dashed;
+    margin-left: 19%;
+    margin-top: 2%;
+}

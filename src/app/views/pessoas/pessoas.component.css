@@ -1,0 +1,77 @@
+    body {
+        background-color: #05020D;
+        overflow-x: hidden;
+    }
+    
+    header {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav a {
+        margin-inline-end: 5rem;
+        color: #FFFF00;
+        text-decoration: none;
+    }
+    /*configuração da navegação na tabela input*/
+    
+    .pesquisa {
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+        float: right;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+    
+    .btnAdd button {
+        background-color: rgba(193, 31, 216, 0.8);
+        color: white;
+        border-radius: 8px;
+        align-items: center;
+    }
+    
+    #bntBusca {
+        border: 1px solid rgba(193, 31, 216, 0.8);
+        height: 32px;
+        align-items: center;
+        border-radius: 7px;
+        width: 30px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: none;
+        background-color: rgba(193, 31, 216, 0.8);
+    }
+    
+    #divBusca input {
+        width: 200px;
+        background-color: rgba(255, 255, 255, 0.971);
+        height: 30px;
+        border-radius: 8px;
+        border: none;
+        margin-right: 3px;
+        margin-top: none;
+    }
+    
+    #divBusca button {
+        height: 34px;
+        border-radius: 7px;
+        background-color: rgba(193, 31, 216, 0.8);
+        margin-top: 2rem;
+    }
+    /*configuração do conteiner da tabela*/
+    
+    table {
+        justify-content: center;
+        width: 90%;
+        background-color: #e2dee9;
+        color: white;
+    }
+    
+    .tabela {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
